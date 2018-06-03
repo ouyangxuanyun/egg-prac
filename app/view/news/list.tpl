@@ -9,8 +9,9 @@
         <li class="item">
           <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
+        {{ helper.relativeTime(item.time) }}
       {% endfor %}
-      {{ helper.relativeTime(item.time) }}
+
     </ul>
   </body>
 </html>

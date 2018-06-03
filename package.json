@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +16,7 @@
     "moment": "^2.22.2"
   },
   "devDependencies": {
-    "egg-bin": "^4.7.0"
+    "egg-bin": "^4.7.0",
+    "egg-mock": "^3.17.2"
   }
 }
